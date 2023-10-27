@@ -17,4 +17,9 @@ public class CriadorDeLeilao {
     public Leilao constroi() { 
         return leilao;
     }
+
+    @Override
+    public String toString() {
+        return leilao.toString();
+    }
 }

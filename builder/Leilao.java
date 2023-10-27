@@ -41,4 +41,12 @@ public class Leilao {
     public List<Lance> getLances() {
         return Collections.unmodifiableList(lances);
     }
+
+    @Override
+    public String toString() {
+        return "Leilao{" +
+                "descricao='" + descricao + '\'' +
+                ", lances=" + lances +
+                '}';
+    }
 }

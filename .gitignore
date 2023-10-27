@@ -3,3 +3,6 @@
 *.ctxt
 *.bluej
 README.TXT
+.idea/
+*.txt
+*.iml

@@ -9,9 +9,11 @@ public class Main
             .para("Playstation 3 Novo")
             .lance(joao, 100.0)
             .lance(maria, 200.0)
-            .lance(joao, 300.0)
+            .lance(jose, 300.0)
             .lance(maria, 400.0)
             .constroi();
+
+        System.out.println(leilao);
 
     }
 }
