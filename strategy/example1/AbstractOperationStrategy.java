@@ -1,3 +1,5 @@
+package example1;
+
 public abstract class AbstractOperationStrategy implements IOperationStrategy {
 
     private final int a;

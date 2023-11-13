@@ -1,5 +1,6 @@
-public final class PlusOperationStrategy extends AbstractOperationStrategy {
+package example1;
 
+public final class PlusOperationStrategy extends AbstractOperationStrategy {
 
     public PlusOperationStrategy(int a, int b){
         super(a, b);

@@ -1,3 +1,5 @@
+package example1;
+
 public final class MinusOperationStrategy extends AbstractOperationStrategy{
 
     public MinusOperationStrategy(int a, int b){

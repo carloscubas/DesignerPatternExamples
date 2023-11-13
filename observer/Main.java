@@ -7,6 +7,7 @@ public class Main {
         //Create a subject
         Subject demoSubject = new SubjectDemo();
         List<Observer> observers = new ArrayList<>(4);
+
         //Create observers
         for (int i = 1; i <= 5; i++) {
             observers.add(new ObserverDemo("Observer-" + i));

@@ -1,3 +1,5 @@
+package example1;
+
 public abstract class MediaDisk {
 
     // readBytes(), modulateBytes() are algorithms to be implemented by inheriting class
